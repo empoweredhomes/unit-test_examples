@@ -3,12 +3,12 @@ Example javascript unit tests are inside the "test" directory
 
 ## Contents:
 
-###Source (code) files:
+### Source (code) files:
 
 controllers/*.js
 index.js; lib/*.js
 
-###Test (code) files
+### Test (code) files
 
 test/controllers/*.spec.js
 test/*.-test.js
