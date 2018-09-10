@@ -1,8 +1,10 @@
+[![codecov](https://codecov.io/gh/adammysa/unit-test_examples/branch/master/graph/badge.svg)](https://codecov.io/gh/adammysa/unit-test_examples)
 # unit-test_examples
 Example javascript unit tests are inside the "test" directory
 
 ## Coverage:
-[![codecov](https://codecov.io/gh/adammysa/unit-test_examples/branch/master/graph/badge.svg)](https://codecov.io/gh/adammysa/unit-test_examples)
+![codecov](https://codecov.io/gh/adammysa/unit-test_examples/branch/master/graphs/icicle.svg)
+![codecov](https://codecov.io/gh/adammysa/unit-test_examples/branch/master/graphs/commits.svg)
 
 ## Contents:
 
