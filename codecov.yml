@@ -2,27 +2,27 @@
 # Each organization and repository may adjust these values below in
 # their codecov.yml files. The logic used to for a project is:
 # `yaml = {}; yaml.update(site); yaml.update(team_yaml); yaml.update(repo_yaml);
-site:
-  coverage:
-    status:
-      patch:
-        default:
-          # basic
-          target: auto
-          threshold: null
-          base: auto 
-          # advanced
-          branches: null
-          if_no_uploads: error
-          if_not_found: success
-          if_ci_failed: error
-          only_pulls: false
-          flags: null
-          paths: null
-            status:
-      project:
-        default: false  # disable the default status that measures entire project
-        tests:  # declare a new status context "tests"
-          target: 20%  # we always want 100% coverage here
-          paths: "tests/"  # only include coverage in "tests/" folder
+coverage:
+  status:
+    patch:
+      default:
+        # basic
+        target: auto
+        threshold: null
+        base: auto 
+        # advanced
+        branches: null
+        if_no_uploads: error
+        if_not_found: success
+        if_ci_failed: error
+        only_pulls: false
+        flags: null
+        paths: null
+coverage:
+  status:
+    project:
+      default: false  # disable the default status that measures entire project
+      tests:  # declare a new status context "tests"
+        target: 20%  # we always want 100% coverage here
+        paths: "test/"  # only include coverage in "tests/" folder
 
