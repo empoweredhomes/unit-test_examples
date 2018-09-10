@@ -29,4 +29,3 @@ test/*.-test.js
 
 ```npm test```
 
-hello
