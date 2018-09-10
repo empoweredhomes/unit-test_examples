@@ -7,3 +7,10 @@ site:
     precision: 2
     round: down
     range: "10...100"
+    coverage:
+  status:
+    project:
+      default: false  # disable the default status that measures entire project
+      tests:  # declare a new status context "tests"
+        target: 100%  # we always want 100% coverage here
+        paths: "tests/"  # only include coverage in "tests/" folder
