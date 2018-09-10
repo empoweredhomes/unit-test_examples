@@ -4,8 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "nyc --all mocha './test/**/*.spec.js' './test/**/*-test.js' --exit",
-    "report-coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov"
+    "report-coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov --token=:0edba7e7-0b1b-4944-adc2-61018a2057ef",
+    "coverage": "nyc report --reporter=text-lcov | codecov --token=:0edba7e7-0b1b-4944-adc2-61018a2057ef",
+    "test": "nyc --all --reporter=text --reporter=text-summary mocha './test/**/*.spec.js' './test/**/*-test.js'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adammysa/unit-test_examples.git"
   },
   "author": "",
   "license": "ISC",
@@ -23,6 +28,7 @@
   "dependencies": {
     "async": "^2.6.1",
     "aws-sdk": "^2.299.0",
+    "codecov": "^3.1.0",
     "joi": "^13.6.0"
   }
 }
