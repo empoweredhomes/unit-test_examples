@@ -1,5 +1,5 @@
 TN:
-SF:/Users/adam/Documents/unit-test_examples/index.js
+SF:/Users/adam/Documents/GitHub/unit-test_examples/index.js
 FNF:0
 FNH:0
 DA:3,1
@@ -9,16 +9,17 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:/Users/adam/Documents/unit-test_examples/raondom.js
+SF:/Users/adam/Documents/GitHub/unit-test_examples/random.js
 FNF:0
 FNH:0
-LF:0
+DA:1,0
+LF:1
 LH:0
 BRF:0
 BRH:0
 end_of_record
 TN:
-SF:/Users/adam/Documents/unit-test_examples/controllers/login.controller.js
+SF:/Users/adam/Documents/GitHub/unit-test_examples/controllers/login.controller.js
 FN:1,LoginController
 FN:4,loadUserList
 FN:8,isValidUserId
@@ -51,7 +52,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:/Users/adam/Documents/unit-test_examples/lib/batch.js
+SF:/Users/adam/Documents/GitHub/unit-test_examples/lib/batch.js
 FN:8,(anonymous_0)
 FN:16,(anonymous_1)
 FN:16,(anonymous_2)
@@ -180,7 +181,7 @@ BRF:24
 BRH:24
 end_of_record
 TN:
-SF:/Users/adam/Documents/unit-test_examples/lib/createTables.js
+SF:/Users/adam/Documents/GitHub/unit-test_examples/lib/createTables.js
 FN:8,(anonymous_0)
 FN:14,(anonymous_1)
 FN:17,(anonymous_2)
@@ -261,7 +262,7 @@ BRF:16
 BRH:12
 end_of_record
 TN:
-SF:/Users/adam/Documents/unit-test_examples/lib/expressions.js
+SF:/Users/adam/Documents/GitHub/unit-test_examples/lib/expressions.js
 FN:11,(anonymous_0)
 FN:19,(anonymous_1)
 FN:29,(anonymous_2)
@@ -454,7 +455,7 @@ BRF:49
 BRH:48
 end_of_record
 TN:
-SF:/Users/adam/Documents/unit-test_examples/lib/index.js
+SF:/Users/adam/Documents/GitHub/unit-test_examples/lib/index.js
 FN:21,(anonymous_0)
 FN:22,(anonymous_1)
 FN:25,(anonymous_2)
@@ -638,7 +639,7 @@ BRF:36
 BRH:35
 end_of_record
 TN:
-SF:/Users/adam/Documents/unit-test_examples/lib/item.js
+SF:/Users/adam/Documents/GitHub/unit-test_examples/lib/item.js
 FN:9,(anonymous_0)
 FN:11,(anonymous_1)
 FN:21,(anonymous_2)
@@ -747,7 +748,7 @@ BRF:28
 BRH:14
 end_of_record
 TN:
-SF:/Users/adam/Documents/unit-test_examples/lib/parallelScan.js
+SF:/Users/adam/Documents/GitHub/unit-test_examples/lib/parallelScan.js
 FN:10,(anonymous_0)
 FN:18,(anonymous_1)
 FN:26,(anonymous_2)
@@ -835,7 +836,7 @@ BRF:14
 BRH:9
 end_of_record
 TN:
-SF:/Users/adam/Documents/unit-test_examples/lib/query-base.js
+SF:/Users/adam/Documents/GitHub/unit-test_examples/lib/query-base.js
 FN:6,(anonymous_0)
 FN:16,(anonymous_1)
 FN:22,(anonymous_2)
@@ -905,7 +906,7 @@ BRF:6
 BRH:6
 end_of_record
 TN:
-SF:/Users/adam/Documents/unit-test_examples/lib/query.js
+SF:/Users/adam/Documents/GitHub/unit-test_examples/lib/query.js
 FN:10,(anonymous_0)
 FN:11,(anonymous_1)
 FN:11,(anonymous_2)
@@ -1059,7 +1060,7 @@ BRF:16
 BRH:13
 end_of_record
 TN:
-SF:/Users/adam/Documents/unit-test_examples/lib/scan.js
+SF:/Users/adam/Documents/GitHub/unit-test_examples/lib/scan.js
 FN:10,(anonymous_0)
 FN:11,(anonymous_1)
 FN:11,(anonymous_2)
@@ -1138,7 +1139,7 @@ BRF:6
 BRH:5
 end_of_record
 TN:
-SF:/Users/adam/Documents/unit-test_examples/lib/schema.js
+SF:/Users/adam/Documents/GitHub/unit-test_examples/lib/schema.js
 FN:47,(anonymous_0)
 FN:66,(anonymous_1)
 FN:67,(anonymous_2)
@@ -1321,7 +1322,7 @@ BRF:46
 BRH:44
 end_of_record
 TN:
-SF:/Users/adam/Documents/unit-test_examples/lib/serializer.js
+SF:/Users/adam/Documents/GitHub/unit-test_examples/lib/serializer.js
 FN:13,(anonymous_0)
 FN:23,(anonymous_1)
 FN:31,(anonymous_2)
@@ -1562,7 +1563,7 @@ BRF:83
 BRH:79
 end_of_record
 TN:
-SF:/Users/adam/Documents/unit-test_examples/lib/table.js
+SF:/Users/adam/Documents/GitHub/unit-test_examples/lib/table.js
 FN:15,(anonymous_0)
 FN:29,(anonymous_1)
 FN:39,(anonymous_2)
@@ -2306,7 +2307,7 @@ BRF:239
 BRH:182
 end_of_record
 TN:
-SF:/Users/adam/Documents/unit-test_examples/lib/utils.js
+SF:/Users/adam/Documents/GitHub/unit-test_examples/lib/utils.js
 FN:10,(anonymous_0)
 FN:10,(anonymous_1)
 FN:15,(anonymous_2)
