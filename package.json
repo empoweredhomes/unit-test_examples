@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "test": "nyc --all --reporter=text --reporter=text-summary mocha './test/**/*.spec.js' './test/**/*-test.js'",
     "report-coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov --token=:0edba7e7-0b1b-4944-adc2-61018a2057ef",
-    "coverage": "nyc report --reporter=text-lcov | codecov --token=:0edba7e7-0b1b-4944-adc2-61018a2057ef",
-    "test": "nyc --all --reporter=text --reporter=text-summary mocha './test/**/*.spec.js' './test/**/*-test.js'"
+    "coverage": "nyc report --reporter=text-lcov | codecov --token=:0edba7e7-0b1b-4944-adc2-61018a2057ef"
   },
   "repository": {
     "type": "git",
@@ -18,9 +18,11 @@
     "assert": "^1.4.1",
     "chai": "4.1.2",
     "chai-as-promised": "7.1.1",
+    "codecov": "^3.1.0",
     "enzyme": "^3.4.4",
+    "istanbul": "^0.4.5",
     "mocha": "5.0.1",
-    "nyc": "^12.0.2",
+    "nyc": "^13.0.1",
     "react": "^16.4.2",
     "react-native-mock": "^0.3.1",
     "sinon": "^6.1.5"
@@ -28,7 +30,6 @@
   "dependencies": {
     "async": "^2.6.1",
     "aws-sdk": "^2.299.0",
-    "codecov": "^3.1.0",
     "joi": "^13.6.0"
   }
 }
