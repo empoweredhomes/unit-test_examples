@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "nyc --all mocha './test/**/*.spec.js' './test/**/*-test.js' --exit"
+    "test": "nyc --all mocha './test/**/*.spec.js' './test/**/*-test.js' --exit",
+    "report-coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov"
   },
   "author": "",
   "license": "ISC",
