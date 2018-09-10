@@ -1,0 +1,9 @@
+# Below is your Enterprise project defaults
+# Each organization and repository may adjust these values below in
+# their codecov.yml files. The logic used to for a project is:
+# `yaml = {}; yaml.update(site); yaml.update(team_yaml); yaml.update(repo_yaml);
+site:
+  coverage:
+    precision: 2
+    round: down
+    range: "10...100"
