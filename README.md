@@ -1,4 +1,5 @@
 [![codecov](https://codecov.io/gh/adammysa/unit-test_examples/branch/master/graph/badge.svg)](https://codecov.io/gh/adammysa/unit-test_examples)
+[![Build status](http://http://192.168.86.61/job/unit-test_examples)](http://http://192.168.86.61/job/unit-test_examples)
 # unit-test_examples
 Example javascript unit tests are inside the "test" directory
 
