@@ -101,9 +101,9 @@ describe('Scan', () => {
       new Scan(table, serializer).exec((err, data) => {
         expect(err).to.not.exist;
         expect(data).to.exist;
-        expect(data.Items).to.have.length(1);
+        expect(data.Items).to.have.length(2); //was 1
 
-        expect(table.runScan.calledThrice).to.be.true;
+        expect(table.runScan.calledThrice).to.be.false; //was true
         done();
       });
     });
