@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "nyc --all --reporter=text mocha './test/**/*.spec.js' './test/**/*-test.js'",
-    "report-coverage": "nyc report --all --reporter=text-lcov > coverage.lcov && codecov --token=0edba7e7-0b1b-4944-adc2-61018a2057ef"
+    "report-coverage": "nyc report --all --reporter=text-lcov > coverage.lcov && codecov --token=9d5682aa-b68b-4178-bbf9-34bb4f3d676b"
   },
   "repository": {
     "type": "git",
