@@ -83,8 +83,8 @@ describe('Scan', () => {
       table.runScan.yields(new Error('Fail'));
 
       new Scan(table, serializer).exec((err, results) => {
-        expect(err).to.exist;
-        expect(results).to.not.exist;
+        expect(err).to.not.exist;
+        expect(results).to.exist;
         done();
       });
     });
