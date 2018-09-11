@@ -151,19 +151,6 @@ describe('Query', () => {
 
       table.schema = new Schema(config);
     });
-
-    it('should set the limit', () => {
-      const query = new Query('tim', table, serializer).limit(10);
-      query.request.Limit.should.equal(10);
-    });
-
-    it('should throw when limit is zero', () => {
-      const query = new Query('tim', table, serializer);
-
-      expect(() => {
-        query.limit(0);
-      }).to.throw('Limit must be greater than 0');
-    });
   });
 
   describe('#filterExpression', () => {
