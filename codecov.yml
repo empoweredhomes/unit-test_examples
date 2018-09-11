@@ -1,26 +1,32 @@
-# Below is your Enterprise project defaults
-# Each organization and repository may adjust these values below in
-# their codecov.yml files. The logic used to for a project is:
-# `yaml = {}; yaml.update(site); yaml.update(team_yaml); yaml.update(repo_yaml);
 coverage:
   status:
-    patch:
-      default:
-        # basic
-        target: auto
-        threshold: null
-        base: auto 
-        # advanced
-        branches: null
-        if_no_uploads: error
-        if_not_found: success
-        if_ci_failed: error
-        only_pulls: false
-        flags: null
-        paths: null
     project:
-      default: false  # disable the default status that measures entire project
-      tests:  # declare a new status context "tests"
-        target: 20%  # we always want 100% coverage here
-        paths: "test/"  # only include coverage in "tests/" folder
+      default: off
+      #frontend:
+      #  flags: frontend
+      #backend:
+      #  target: 50%
+      #  flags: backend
+      #api:
+      #  target: 89%
+      #  flags: api
+      tests:
+        target: 10%
+        flags: tests
+
+flags:
+  # filter the folder(s) you wish to measure by that flag
+  # backend:
+  #  # only include files in the backend folder
+  #  paths:
+  #    - app/backend/
+  #frontend:
+  #  paths:
+  #    - app/frontend/
+  #api:
+  #  paths:
+  #    - app/api/
+  tests:
+    paths:
+      - tests/
 
