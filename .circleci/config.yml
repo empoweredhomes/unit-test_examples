@@ -36,5 +36,11 @@ jobs:
       # run tests!
       - run: npm test
       - run: ./cc
+      - store_artifacts:
+          path: test-results.xml
+          prefix: tests
+      - store_artifacts:
+          path: coverage
+          prefix: coverage
 
 
