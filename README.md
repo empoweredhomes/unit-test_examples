@@ -2,6 +2,7 @@
 [![codecov](https://codecov.io/gh/empoweredhomes/unit-test_examples/branch/master/graph/badge.svg)](https://codecov.io/gh/empoweredhomes/unit-test_examples)
 [![Known Vulnerabilities](https://snyk.io/test/github/empoweredhomes/unit-test_examples/badge.svg?targetFile=package.json)](https://snyk.io/test/github/empoweredhomes/unit-test_examples?targetFile=package.json)
 [![dependencies Status](https://david-dm.org/adammysa/unit-test_examples/status.svg)](https://david-dm.org/adammysa/unit-test_examples)
+[![devDependencies Status](https://david-dm.org/adammysa/unit-test_examples/dev-status.svg)](https://david-dm.org/adammysa/unit-test_examples?type=dev)
 # unit-test_examples
 Example javascript unit tests are inside the "test" directory
 
