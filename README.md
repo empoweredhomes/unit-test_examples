@@ -3,6 +3,8 @@
 [![Known Vulnerabilities](https://snyk.io/test/github/empoweredhomes/unit-test_examples/badge.svg?targetFile=package.json)](https://snyk.io/test/github/empoweredhomes/unit-test_examples?targetFile=package.json)
 [![dependencies Status](https://david-dm.org/adammysa/unit-test_examples/status.svg)](https://david-dm.org/adammysa/unit-test_examples)
 [![devDependencies Status](https://david-dm.org/adammysa/unit-test_examples/dev-status.svg)](https://david-dm.org/adammysa/unit-test_examples?type=dev)
+[![Maintainability](https://api.codeclimate.com/v1/badges/1ca56217b408b5695e8a/maintainability)](https://codeclimate.com/github/adammysa/unit-test_examples/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/1ca56217b408b5695e8a/test_coverage)](https://codeclimate.com/github/adammysa/unit-test_examples/test_coverage)
 # unit-test_examples
 Example javascript unit tests are inside the "test" directory
 
