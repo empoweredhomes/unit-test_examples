@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "nyc --all --reporter=text mocha './test/**/*.spec.js' './test/**/*-test.js'",
-    "report-coverage": "nyc report --all --reporter=text-lcov > coverage.lcov && codecov --token=9d5682aa-b68b-4178-bbf9-34bb4f3d676b"
+    "report-coverage": "nyc report --all --reporter=text-lcov > coverage.lcov && codecov --token=9d5682aa-b68b-4178-bbf9-34bb4f3d676b",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -29,7 +31,9 @@
   },
   "dependencies": {
     "async": "^2.6.1",
-    "aws-sdk": "^2.311.0",
-    "joi": "^13.6.0"
-  }
+    "aws-sdk": "^2.814.0",
+    "joi": "^13.6.0",
+    "@snyk/protect": "latest"
+  },
+  "snyk": true
 }
